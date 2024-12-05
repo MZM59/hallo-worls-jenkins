@@ -1,1 +1,13 @@
-echo "Hello world"
+pipeline{
+  agent any
+
+  stages{
+
+    stage("example"){
+        steps {
+              echo "Hello world"
+            }
+        }    
+      }
+
+}
